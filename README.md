@@ -10,10 +10,17 @@ To use the repo locally:
 3. Unzip the file on your local system.
 4. Open your code editor e.g. VS Code
 5. First, open the component library folder in your code editor.
-6. Type 'NPM i' in your terminal to install all of the project's dependencies.
+6. Type 'npm i' in your terminal to install all of the project's dependencies.
 7. Repeat steps 5 and 6 for the demo-app folder.
-8. Type 'NPM run dev' in your terminal to run the project locally in your web browser.
+8. Type 'npm run dev' in your terminal to run the project locally in your web browser.
 9. You should expect to see the bug "TypeError: Cannot read properties of null (reading 'useRef)" in your web browser.
+
+The bug can be resolved by:
+10. Type 'npm i next@13.3.1' into the terminal to install Next v13.3.1 into the demo-app.
+11. Type 'npm run dev' to run a local version of the app in your web browser.
+12. You should now see a button.
+13. Open DevTools and navigate to the console.
+14. Click on the button and the console should state "Clicked x times", with x = the number of times it has been clicked.
 
 To recreate the bug:
 1. Create a Next app with Typescript e.g. app1.
