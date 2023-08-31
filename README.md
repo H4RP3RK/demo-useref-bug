@@ -16,11 +16,11 @@ To use the repo locally:
 9. You should expect to see the bug "TypeError: Cannot read properties of null (reading 'useRef)" in your web browser.
 
 The bug can be resolved by:
-10. Type 'npm i next@13.3.1' into the terminal to install Next v13.3.1 into the demo-app.
-11. Type 'npm run dev' to run a local version of the app in your web browser.
-12. You should now see a button.
-13. Open DevTools and navigate to the console.
-14. Click on the button and the console should state "Clicked x times", with x = the number of times it has been clicked.
+1. Type 'npm i next@13.3.1' into the terminal to install Next v13.3.1 into the demo-app.
+2. Type 'npm run dev' to run a local version of the app in your web browser.
+3. You should now see a button.
+4. Open DevTools and navigate to the console.
+5. Click on the button and the console should state "Clicked x times", with x = the number of times it has been clicked.
 
 To recreate the bug:
 1. Create a Next app with Typescript e.g. app1.
